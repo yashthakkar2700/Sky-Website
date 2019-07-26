@@ -1,0 +1,27 @@
+.footer-section{
+    width: 100%;
+    height: 13.51rem;
+    background: #000;
+    padding-top: 3.66rem;
+    position: absolute;
+    top: 2440px;
+    bottom: 0;
+    
+    &__social-icons{
+        text-align: center;
+        color: #bbb;
+        font-size: 2rem;
+    }
+    &__social-icons{
+        span:hover{
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    &__footer-text{
+        color: #bbb;
+        font-size: 0.875rem;
+        text-align: center;
+        margin-top: 1.875rem;
+    }
+}

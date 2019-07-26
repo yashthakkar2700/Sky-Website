@@ -1,0 +1,74 @@
+.second-section{
+    width: 100%;
+    height: 51.25rem;
+    background: #fff;
+    position: absolute;
+    top: 25rem;
+    bottom: 0;
+    padding-top: 5.5rem;
+    background-color: #f2f2f2;
+    
+    &__grid-layout{
+        width: 1173.3px;
+        height: 633.7px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-left: 172.9px;
+        
+        &__box{
+            width: 34.831rem;
+            height: 633.77px;
+            background: #fff;
+            
+            &__image-section{
+                width: 34.831rem;
+                height: 17.412rem;
+                
+                img{
+                    width: 34.831rem;
+                    height: 17.412rem;
+                }
+            }
+            &__info-section{
+                width: 34.831rem;
+                height: 22.193rem;
+                padding: 2.75rem;
+                
+                &__light-title{
+                    text-align: center;
+                    font-size: .75rem;
+                    color: #999999;
+                    letter-spacing: 4px;
+                }
+                &__title{
+                    font-size: 1.75rem;
+                    text-align: center;
+                    font-family: "Poppins", sans-serif
+                }
+                &__content{
+                    color: #a6a6a6;
+                    text-align: left;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+                &__learn-more-btn{
+                    width: 128.5px;
+                    height: 41.8px;
+                    border: solid 1px rgba(0, 0, 0, 0.15);
+                    text-align: center;
+                    padding-top: 8px;
+                    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+                    margin-left: 170px;
+                    cursor: pointer;
+                }
+            }
+        } 
+        
+        &__box__info-section__learn-more-btn:hover{
+            transition: 0.4s;
+            background: rgba(0, 0, 0, 0.10);
+        }
+    }
+    
+}

@@ -1,0 +1,57 @@
+.back-container1{
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    
+    img{
+        width: 100%;
+        height: 50rem;
+        position: fixed;
+    }
+    
+    &__menu-btn{
+        color: #fff;
+        position: absolute;
+        cursor: pointer;
+        top: 30px;
+        right: 20px;
+        bottom: 0;
+        padding: 10px;
+        P{
+            font-size: 1rem;
+        }
+    }
+    &__small-title{
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: .25rem; 
+        position: absolute;
+        top: 100px;
+        bottom:0;
+        left: 490px;
+    }
+    &__line{
+        width: 14.66rem;
+        height: 1px;
+        background: #ccc;
+        position: absolute;
+        top: 150px;
+        bottom:0;
+        left: 640px;
+    }
+    &__big-title{
+        font-size: 7rem;
+        color: #fff;
+        font-weight: 300;
+        position: absolute;
+        top: 9.375rem;
+        bottom:0;
+        left: 38.25rem;
+        letter-spacing: 2px;
+    }
+    
+}
+
+
+
